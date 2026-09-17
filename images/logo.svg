@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="redGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF2E3D"/>
+      <stop offset="100%" stop-color="#C8202C"/>
+    </linearGradient>
+    <linearGradient id="metalGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#B0B0B0"/>
+    </linearGradient>
+    <filter id="redGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="6" flood-color="#FF2E3D" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <!-- Transparent Background -->
+  <!-- Outer Red Ring -->
+  <circle cx="100" cy="100" r="90" fill="none" stroke="url(#redGrad)" stroke-width="6" filter="url(#redGlow)"/>
+  <circle cx="100" cy="100" r="82" fill="rgba(10, 9, 8, 0.4)" stroke="rgba(255,255,255,0.15)" stroke-width="2"/>
+
+  <!-- Barbell Bar -->
+  <rect x="35" y="96" width="130" height="8" rx="4" fill="url(#metalGrad)"/>
+
+  <!-- Left Weights -->
+  <rect x="48" y="65" width="10" height="70" rx="3" fill="url(#metalGrad)"/>
+  <rect x="38" y="72" width="8" height="56" rx="2" fill="url(#redGrad)"/>
+
+  <!-- Right Weights -->
+  <rect x="142" y="65" width="10" height="70" rx="3" fill="url(#metalGrad)"/>
+  <rect x="154" y="72" width="8" height="56" rx="2" fill="url(#redGrad)"/>
+
+  <!-- Center Bold Athletic 'A' Flame Emblem -->
+  <path d="M 100 42 L 124 135 H 107 L 100 106 H 100 L 93 106 L 76 135 H 59 Z M 100 66 L 94 92 H 106 Z" fill="url(#redGrad)"/>
+
+  <!-- Inner Barbell Detail Line -->
+  <line x1="75" y1="100" x2="125" y2="100" stroke="#FFFFFF" stroke-width="2"/>
+</svg>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Coaches — Amy Fitness</title>
+<meta name="description" content="Meet the coaching staff at Amy Fitness — specialization, philosophy and experience for each coach." />
+<meta name="theme-color" content="#0a0908" />
+<link rel="icon" href="images/logo.png" type="image/png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/tokens.css" />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body data-page="coaches.html">
+<a href="#main" class="skip-link">Skip to content</a>
+<header class="nav" id="site-nav"></header>
+<div class="mobile-menu" id="mobile-menu"></div>
+
+<main id="main">
+  <section class="page-hero wrap">
+    <p class="eyebrow reveal">Coaching Staff</p>
+    <h1 class="display reveal reveal-delay-1">Meet The<br />Coaches.</h1>
+    <p class="lede reveal reveal-delay-2" style="margin-top:1.2rem;">Every program is written and adjusted by a coach — not an app. Explore our team's specializations, experience, and coaching philosophies below.</p>
+  </section>
+
+  <section class="section wrap">
+    <div class="coach-gallery" id="coaches-mount"></div>
+  </section>
+
+  <section class="section wrap cta-section" style="border-top:1px solid var(--line);">
+    <div class="cta-inner reveal">
+      <h2 class="display cta-headline">Train With A<br />Coach Who Adjusts.</h2>
+      <p class="lede">Book a consultation to get matched with the right coach for your goal.</p>
+      <div class="cta-actions">
+        <a href="contact.html" class="btn btn-primary">Book a Session<svg viewBox="0 0 24 24" width="14" height="14" fill="none" aria-hidden="true"><path d="M6 18L18 6M18 6H9M18 6V15" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer" id="site-footer"></footer>
+
+<script src="js/data.js"></script>
+<script src="js/components.js"></script>
+<script src="js/main.js"></script>
+<script>
+  AmyFitness.renderCoaches("#coaches-mount");
+</script>
+</body>
+</html>

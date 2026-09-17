@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Facility — Amy Fitness</title>
+<meta name="description" content="An inside look at the Amy Fitness training floor, strength and conditioning areas, and coaching environment." />
+<meta name="theme-color" content="#0a0908" />
+<link rel="icon" href="images/logo.png" type="image/png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/tokens.css" />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body data-page="facility.html">
+<a href="#main" class="skip-link">Skip to content</a>
+<header class="nav" id="site-nav"></header>
+<div class="mobile-menu" id="mobile-menu"></div>
+
+<main id="main">
+  <section class="page-hero wrap">
+    <p class="eyebrow reveal">The Space</p>
+    <h1 class="display reveal reveal-delay-1">The Facility.</h1>
+    <p class="lede reveal reveal-delay-2" style="margin-top:1.2rem;">Built for people who take training seriously — dedicated strength, conditioning and recovery areas, coached from the floor.</p>
+  </section>
+
+  <section class="section wrap">
+    <div class="facility-gallery" id="facility-mount"></div>
+  </section>
+
+  <section class="section wrap">
+    <div class="statement-grid">
+      <h2 class="display statement-head reveal">Design With<br />A Purpose.</h2>
+      <div class="statement-aside reveal reveal-delay-2">
+        <p class="lede">Every area of the floor is built around how it's actually used — free weight zones separated from conditioning, a dedicated coaching studio for technique work, and a recovery room that isn't an afterthought.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section wrap cta-section" style="border-top:1px solid var(--line);">
+    <div class="cta-inner reveal">
+      <h2 class="display cta-headline">Come See It<br />In Person.</h2>
+      <p class="lede">Tours are available by appointment alongside your first consultation.</p>
+      <div class="cta-actions">
+        <a href="contact.html" class="btn btn-primary">Book a Session<svg viewBox="0 0 24 24" width="14" height="14" fill="none" aria-hidden="true"><path d="M6 18L18 6M18 6H9M18 6V15" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer" id="site-footer"></footer>
+
+<script src="js/data.js"></script>
+<script src="js/components.js"></script>
+<script src="js/main.js"></script>
+<script>
+  AmyFitness.renderFacility("#facility-mount");
+</script>
+</body>
+</html>
